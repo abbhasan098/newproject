@@ -1,0 +1,345 @@
+body {
+  min-height: 1000vh;
+  background-color: black;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 55px;
+  top: 300px;
+  left: 28%;
+  animation: animateText 5s linear infinite alternate;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.link{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 27px;
+  top: 2120px;
+  left: 85%;
+  text-align: justify; /* Center text horizontally */
+
+}
+h2 {
+  color: rgb(198, 209, 196);
+  font-family: cursive;
+  position: absolute;
+  font-size: 20px;
+  top: 400px;
+  left: 32%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.flavours {
+  color: rgb(209, 27, 11);
+  font-family: cursive;
+  position: absolute;
+  font-size: 17px;
+  top: 800px;
+  left: 45%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.Good {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 40px;
+  top: 850px;
+  left: 39%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.nice {
+  color: rgb(239, 55, 14);
+  font-family: cursive;
+  position: absolute;
+  font-size: 20px;
+  top: 250px;
+  left: 44%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+button {
+  position: absolute;
+  top: 67%;
+  left: 680px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(15, 147, 51);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.logo {
+  position: absolute;
+  font-size: 55px;
+  top: 50px;
+  left: 1%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.navbar {
+  position: absolute;
+  top: 8%;
+  left: 570px;
+  box-sizing: border-box;
+
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar li {
+  margin-right: 60px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255); /* Set your desired text color */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+.navbar :hover {
+  color: red;
+}
+.service-1 {
+  position: absolute;
+  top: 1100px;
+  left: 15%;
+}
+.service-2 {
+  position: absolute;
+  top: 1100px;
+  left: 42%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.service-3 {
+  position: absolute;
+  top: 1100px;
+  left: 70%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.flavourss {
+  color: rgb(6, 128, 10);
+  font-family: cursive;
+  position: absolute;
+  font-size: 20px;
+  top: 950px;
+  left: 30%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.breakfast {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 25px;
+  top: 1450px;
+  left: 20%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.Appetizers {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 25px;
+  top: 1450px;
+  left: 47%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.Drinks {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 25px;
+  top: 1450px;
+  left: 77%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+
+.Menu {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 40px;
+  top: 1600px;
+  left: 42%;
+  transform: translateY(-50%);
+  text-align: justify; /* Center text horizontally */
+}
+.image1 {
+  position: absolute;
+  top: 1735px;
+  left: 15%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.image2 {
+  position: absolute;
+  top: 1930px;
+  left: 15%;
+
+  text-align: justify; /* Center text horizontally */
+}
+
+.image3 {
+  position: absolute;
+  top: 2120px;
+  left: 15%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.image4 {
+  position: absolute;
+  top: 1735px;
+  left: 52%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.image5 {
+  position: absolute;
+  top: 1930px;
+  left: 52%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.imaage6 {
+  position: absolute;
+  top: 2120px;
+  left: 53%;
+
+  text-align: justify; /* Center text horizontally */
+}
+
+.pizza {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 1728px;
+  left: 27%;
+  text-align: justify; /* Center text horizontally */
+}
+.burger {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 1925px;
+  left: 27%;
+  text-align: justify; /* Center text horizontally */
+}
+
+.noodles {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 2115px;
+  left: 27%;
+
+  text-align: justify; /* Center text horizontally */
+}
+
+.momos {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 1735px;
+  left: 65%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.fries {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 1920px;
+  left: 65%;
+
+  text-align: justify; /* Center text horizontally */
+}
+.wrap {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  top: 2117px;
+  left: 65%;
+  text-align: justify; /* Center text horizontally */
+}
+
+.price1{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 28px;
+  top: 1739px;
+  left: 40%;
+  text-align: justify; /* Center text horizontally */
+}
+.price2{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 28px;
+  top: 1935px;
+  left: 40%;
+  text-align: justify; /* Center text horizontally */
+}
+
+.price3{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 27px;
+  top: 2125px;
+  left: 40%;
+  text-align: justify; /* Center text horizontally */
+}
+
+.price4{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 27px;
+  top: 1740px;
+  left: 85%;
+  text-align: justify; /* Center text horizontally */
+}
+
+
+.price5{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 27px;
+  top: 1925px;
+  left: 85%;
+  text-align: justify; /* Center text horizontally */
+}
+.price6{
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  font-size: 27px;
+  top: 2120px;
+  left: 85%;
+  text-align: justify; /* Center text horizontally */
+}
